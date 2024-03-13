@@ -15,24 +15,32 @@ const ContactPage = () => {
             {/* email */}
             <div className='flex sm:flex-nowrap flex-wrap items-center gap-4 border-b-[1px] border-gray-200 py-10'>
                 <h1 className='text-lg font-bold text-gray-700 whitespace-nowrap'>Email / </h1>
-                <a className='text-mainblue sm:text-xl text-lg hover:text-sky-500' style={{wordWrap:'anywhere'}} href='mailto:ahmedmohamed@outlook.com'>ahmedmohamed@outlook.com</a>
+                <a className='text-mainblue sm:text-xl text-lg hover:text-sky-500' style={{wordWrap:'anywhere'}} href='mailto:ayaaabozaid2512@gmail.com'>ayaaabozaid2512@gmail.com</a>
+            </div>
+            <div className='flex sm:flex-nowrap flex-wrap items-center gap-4 border-b-[1px] border-gray-200 py-10'>
+                <h1 className='text-lg font-bold text-gray-700 whitespace-nowrap'>Email / </h1>
+                <a className='text-mainblue sm:text-xl text-lg hover:text-sky-500' style={{wordWrap:'anywhere'}} href='mailto:ssaharrghobashy@gmail.com'>ssaharrghobashy@gmail.com</a>
+            </div>
+            <div className='flex sm:flex-nowrap flex-wrap items-center gap-4 border-b-[1px] border-gray-200 py-10'>
+                <h1 className='text-lg font-bold text-gray-700 whitespace-nowrap'>Email / </h1>
+                <a className='text-mainblue sm:text-xl text-lg hover:text-sky-500' style={{wordWrap:'anywhere'}} href='mailto:sarabadawii695@gmail.com'>sarabadawii695@gmail.com</a>
             </div>
             {/* mobile phone */}
-            <div className='flex sm:flex-nowrap flex-wrap gap-4 border-b-[1px] border-gray-200 py-10'>
+            {/* <div className='flex sm:flex-nowrap flex-wrap gap-4 border-b-[1px] border-gray-200 py-10'>
                 <h1 className='text-lg font-bold text-gray-700 whitespace-nowrap'>Phone Numbers / </h1>
                 <div className='flex items-center justify-start flex-wrap gap-2'>
                     <a className='text-mainblue text-lg hover:text-sky-500' href='tel:01066404523'>01066404523</a>
                     <a className='text-mainblue text-lg hover:text-sky-500' href='tel:01066404523'>01066404523</a>
                 </div>
-            </div>
+            </div> */}
             {/* whatsapp number */}
-            <div className='flex sm:flex-nowrap flex-wrap gap-4 border-b-[1px] border-gray-200 py-10'>
+            {/* <div className='flex sm:flex-nowrap flex-wrap gap-4 border-b-[1px] border-gray-200 py-10'>
                 <h1 className='text-lg font-bold text-gray-700 whitespace-nowrap'>Whatsapp Numbers / </h1>
                 <div className='flex items-center justify-start flex-wrap gap-2'>
                     <a className='text-mainblue text-lg hover:text-sky-500' href='whatsapp://send?phone=+201066404523'>01066404523</a>
                     <a className='text-mainblue text-lg hover:text-sky-500' href='whatsapp://send?phone=+201066404523'>01066404523</a>
                 </div>
-            </div>
+            </div> */}
             {/* form  */}
             <form onSubmit={HandleForm} className='flex sm:flex-nowrap flex-wrap gap-4 border-b-[1px] border-gray-200 py-10'>
                 <h1 className='text-lg font-bold text-gray-700 whitespace-nowrap'>Leave a message / </h1>

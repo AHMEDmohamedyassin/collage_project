@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Card from '../Components/Card'
+import Card4 from '../Components/Card4'
 import Card3 from '../Components/Card3'
 import { useLocation, useParams } from 'react-router-dom'
 import { Locations } from '../config'
@@ -31,7 +31,7 @@ const RealStatePage = () => {
       {
         data.map((e , index) => (
 
-          <Card key={index} {...e}/>
+          <Card4 key={index} {...e}/>
         ))
       }
 

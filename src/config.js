@@ -1,79 +1,72 @@
 export const Locations = [
     {
-        uri:"sheikhzayed" ,
-        title:'sheikh Zayed' ,
-        bannar : 'https://images.pexels.com/photos/5524166/pexels-photo-5524166.jpeg?auto=compress&cs=tinysrgb&w=600' ,
+        uri:"newcairo" ,
+        title:'New Cairo' ,
+        bannar : '/images/newcairo1.jpg' ,
         items : [
             {
-                icon : 'https://media.istockphoto.com/id/1175964659/photo/real-estate-houses-gold-logo-design-3d-rendering-illustration.jpg?s=612x612&w=0&k=20&c=jdWGp9EMGFioE4EPCg1z_yYI_vjBb8RwAFZ0Jnvu8Qk=',
-                img:"https://images.pexels.com/photos/1078981/pexels-photo-1078981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                icon : '/images/newcairo1.jpg',
+                img:"/images/newcairo1.jpg",
                 title:"Silversands in North Coast by Ora Developers" ,
                 dev : "Ora Developers",
                 desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle"
             },
             {
-                icon : 'https://media.istockphoto.com/id/1175964659/photo/real-estate-houses-gold-logo-design-3d-rendering-illustration.jpg?s=612x612&w=0&k=20&c=jdWGp9EMGFioE4EPCg1z_yYI_vjBb8RwAFZ0Jnvu8Qk=',
-                img:"https://images.pexels.com/photos/1078981/pexels-photo-1078981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                icon : '/images/newcairo2.jpg',
+                img:"/images/newcairo2.jpg",
                 title:"Silversands in North Coast by Ora Developers" ,
                 dev : "Ora Developers",
                 desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle"
             },
             {
-                icon : 'https://media.istockphoto.com/id/1175964659/photo/real-estate-houses-gold-logo-design-3d-rendering-illustration.jpg?s=612x612&w=0&k=20&c=jdWGp9EMGFioE4EPCg1z_yYI_vjBb8RwAFZ0Jnvu8Qk=',
-                img:"https://images.pexels.com/photos/1078981/pexels-photo-1078981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                icon : '/images/newcairo3.jpg',
+                img:"/images/newcairo3.jpg",
                 title:"Silversands in North Coast by Ora Developers" ,
                 dev : "Ora Developers",
                 desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle"
             },
             {
-                icon : 'https://media.istockphoto.com/id/1175964659/photo/real-estate-houses-gold-logo-design-3d-rendering-illustration.jpg?s=612x612&w=0&k=20&c=jdWGp9EMGFioE4EPCg1z_yYI_vjBb8RwAFZ0Jnvu8Qk=',
-                img:"https://images.pexels.com/photos/1078981/pexels-photo-1078981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                icon : '/images/newcairo4.jpg',
+                img:"/images/newcairo4.jpg",
                 title:"Silversands in North Coast by Ora Developers" ,
                 dev : "Ora Developers",
                 desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle"
-            },
-            {
-                icon : 'https://media.istockphoto.com/id/1175964659/photo/real-estate-houses-gold-logo-design-3d-rendering-illustration.jpg?s=612x612&w=0&k=20&c=jdWGp9EMGFioE4EPCg1z_yYI_vjBb8RwAFZ0Jnvu8Qk=',
-                img:"https://images.pexels.com/photos/1078981/pexels-photo-1078981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-                title:"Silversands in North Coast by Ora Developers" ,
-                dev : "Ora Developers",
-                desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle"
-            },
+            }
         ]
     },
     {
-        uri:"newcairo" ,
-        title:'new cairo' ,
-        bannar : 'https://images.pexels.com/photos/5524167/pexels-photo-5524167.jpeg?auto=compress&cs=tinysrgb&w=600' ,
+        uri:"northcoast" ,
+        title:'North coast' ,
+        bannar : '/images/northcoast1.jpg' ,
         items : [
             {
-                icon : 'https://media.istockphoto.com/id/1175964659/photo/real-estate-houses-gold-logo-design-3d-rendering-illustration.jpg?s=612x612&w=0&k=20&c=jdWGp9EMGFioE4EPCg1z_yYI_vjBb8RwAFZ0Jnvu8Qk=',
-                img:"https://images.pexels.com/photos/1078981/pexels-photo-1078981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                icon : '/images/northcoast1.jpg',
+                img:"/images/northcoast1.jpg",
                 title:"Silversands in North Coast by Ora Developers" ,
                 dev : "Ora Developers",
                 desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle"
             },
             {
-                icon : 'https://media.istockphoto.com/id/1175964659/photo/real-estate-houses-gold-logo-design-3d-rendering-illustration.jpg?s=612x612&w=0&k=20&c=jdWGp9EMGFioE4EPCg1z_yYI_vjBb8RwAFZ0Jnvu8Qk=',
-                img:"https://images.pexels.com/photos/1078981/pexels-photo-1078981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                icon : '/images/northcoast2.jpg',
+                img:"/images/northcoast2.jpg",
                 title:"Silversands in North Coast by Ora Developers" ,
                 dev : "Ora Developers",
                 desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle"
             },
             {
-                icon : 'https://media.istockphoto.com/id/1175964659/photo/real-estate-houses-gold-logo-design-3d-rendering-illustration.jpg?s=612x612&w=0&k=20&c=jdWGp9EMGFioE4EPCg1z_yYI_vjBb8RwAFZ0Jnvu8Qk=',
-                img:"https://images.pexels.com/photos/1078981/pexels-photo-1078981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                icon : '/images/northcoast3.jpg',
+                img:"/images/northcoast3.jpg",
                 title:"Silversands in North Coast by Ora Developers" ,
                 dev : "Ora Developers",
                 desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle"
             },
             {
-                icon : 'https://media.istockphoto.com/id/1175964659/photo/real-estate-houses-gold-logo-design-3d-rendering-illustration.jpg?s=612x612&w=0&k=20&c=jdWGp9EMGFioE4EPCg1z_yYI_vjBb8RwAFZ0Jnvu8Qk=',
-                img:"https://images.pexels.com/photos/1078981/pexels-photo-1078981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                icon : '/images/northcoast4.jpg',
+                img:"/images/northcoast4.jpg",
                 title:"Silversands in North Coast by Ora Developers" ,
                 dev : "Ora Developers",
                 desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle"
-            },
+            }
         ]
-    }
+    },
 ]

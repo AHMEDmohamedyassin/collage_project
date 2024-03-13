@@ -36,7 +36,7 @@ const HomeBanner = () => {
                   >
                     <div className='absolute top-0 left-0 w-full h-full -z-10 bg-black/20'></div>
                     <div className='absolute top-0 left-0 w-full h-full center'>
-                      <div className='text-white font-bold text-6xl capitalize' style={{letterSpacing:4}}>{e.title}</div>
+                      <div className='text-white font-bold text-3xl lg:text-6xl capitalize' style={{letterSpacing:4}}>{e.title}</div>
                     </div>
                   </motion.div>
                 ) : null              
