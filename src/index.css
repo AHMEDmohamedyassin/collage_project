@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+*{
+  font-family: "Cairo", sans-serif;
+  transition: 0.3s
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input:focus{
+  outline: none
 }
+
+@layer components {
+    .center{
+        @apply flex justify-center items-center ;
+    }
+
+    .contain{
+        @apply w-full max-w-[1360px] lg:px-20 px-5 mx-auto;
+    }
+
+    .button{
+        @apply hover:cursor-pointer hover:text-mainBlue ;
+        user-select: none
+    }
+
+    .mainButton {
+      @apply border-[1px] border-gray-200 bg-mainBlue text-white px-4 py-1 rounded-lg text-lg font-semibold hover:bg-mainBlue/80;
+      user-select:  none;
+    }
+
+    .mainInput {
+      @apply bg-mainWhite border-gray-200 border-[1px] shadow-sm shadow-mainShadow rounded px-2 py-1;
+      user-select: none;
+    }
+
+    .mainListing {
+      @apply flex flex-col  gap-y-6
+    }
+
+    .mainFrom {
+      @apply grid lg:grid-cols-2 gap-4 my-10
+    }
+
+    ::selection{
+      @apply text-mainBlue bg-gray-200
+    }
+  }
+  
+  
+  /* icons  */
+  .material-symbols-outlined {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 200,
+    'opsz' 48
+  }
+  
+  .fill {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 200,
+    'opsz' 48
+  }
