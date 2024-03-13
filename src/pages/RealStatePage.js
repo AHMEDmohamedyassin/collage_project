@@ -3,6 +3,7 @@ import Card4 from '../Components/Card4'
 import Card3 from '../Components/Card3'
 import { useLocation, useParams } from 'react-router-dom'
 import { Locations } from '../config'
+import Card5 from '../Components/Card5'
 
 const RealStatePage = () => {
   const location = useLocation();
@@ -30,8 +31,13 @@ const RealStatePage = () => {
       
       {
         data.map((e , index) => (
-
-          <Card4 key={index} {...e}/>
+          <>
+            {
+              e.video? 
+              <Card5 key={index} {...e}/> : 
+              <Card4 key={index} {...e}/>
+            }
+          </>
         ))
       }
 

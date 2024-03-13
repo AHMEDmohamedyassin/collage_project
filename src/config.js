@@ -37,7 +37,7 @@ export const Locations = [
     {
         uri:"northcoast" ,
         title:'North coast' ,
-        bannar : '/images/northcoast1.jpg' ,
+        bannar : '/images/northcoast2.jpg' ,
         items : [
             {
                 icon : '/images/northcoast1.jpg',
@@ -63,6 +63,41 @@ export const Locations = [
             {
                 icon : '/images/northcoast4.jpg',
                 img:"/images/northcoast4.jpg",
+                title:"Silversands in North Coast by Ora Developers" ,
+                dev : "Ora Developers",
+                desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle"
+            }
+        ]
+    },
+    {
+        uri:"sheikhzayed" ,
+        title:'Sheikh Zayed' ,
+        bannar : '/images/sheikhzayed1.jpg' ,
+        items : [
+            {
+                icon : '/images/sheikhzayed1.jpg',
+                img:"/images/sheikhzayed1.jpg",
+                title:"Silversands in North Coast by Ora Developers" ,
+                dev : "Ora Developers",
+                desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle"
+            },
+            {
+                icon : '/images/sheikhzayed2.jpg',
+                img:"/images/sheikhzayed2.jpg",
+                title:"Silversands in North Coast by Ora Developers" ,
+                dev : "Ora Developers",
+                desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle"
+            },
+            {
+                icon : '/images/sheikhzayed3.jpg',
+                img:"/images/sheikhzayed3.jpg",
+                title:"Silversands in North Coast by Ora Developers" ,
+                dev : "Ora Developers",
+                desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle"
+            },
+            {
+                icon : '/images/sheikhzayed4.jpg',
+                video:"/images/sheikhzayedVideo.mp4",
                 title:"Silversands in North Coast by Ora Developers" ,
                 dev : "Ora Developers",
                 desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle"
